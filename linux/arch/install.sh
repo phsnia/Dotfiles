@@ -1,4 +1,9 @@
+# --- Core ---
 sudo pacman -Syu git base-devel
+
+# --- Time ---
+sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+sudo timedatectl set-ntp true
 
 # --- Driver ---
 sudo pacman -S mesa \
@@ -12,3 +17,4 @@ sudo systemctl enable ly@tty1.service
 
 # --- Audio ---
 sudo pacman -Syu pipewire pipewire-pulse pavucontrol
+

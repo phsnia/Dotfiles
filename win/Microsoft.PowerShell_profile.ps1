@@ -33,7 +33,7 @@ function cproj {
 }
 
 #
-function force_push {
+function fpush {
     git status
 
     $confirm = Read-Host "Do you want to force push? (y/N)"

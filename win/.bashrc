@@ -1,6 +1,6 @@
 alias ll="ls -alF --color=auto"
 alias src="source ~/.bashrc"
-function force_push() {
+function fpush() {
     git status
 
     read -r -p "Do you want to force push? (y/N) " confirm

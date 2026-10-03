@@ -29,6 +29,10 @@ New-Item `
     -Path $TARGET `
     -Target $SOURCE | Out-Null
 
+Write-Host ""
+Write-Host "Dotfiles linked successfully." -ForegroundColor Green
+Write-Host "$TARGET -> $SOURCE"
+
 $SOURCE = Join-Path $PSScriptRoot $BASH_PATH
 $TARGET = Join-Path $USER_HOME $BASH_PATH
 
@@ -44,3 +48,4 @@ New-Item `
 Write-Host ""
 Write-Host "Dotfiles linked successfully." -ForegroundColor Green
 Write-Host "$TARGET -> $SOURCE"
+Read-Host "Enter..."

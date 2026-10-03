@@ -1,0 +1,217 @@
+2026-10-04T01:07:31+07:00 INFO  [util] raised open file soft limit from 1024 to 65536
+2026-10-04T01:07:31+07:00 INFO  [zed] ========== starting zed version 1.22.0+stable, sha unknown ==========
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::client] XInput version: 2.4, gesture support: true
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::client] x11: compositor present: true, gtk_frame_extents_supported: false
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::client] Using RandR scale factor: 1
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 11 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 12 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 12 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 13 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 14 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 15 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 16 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 17 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 18 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 19 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 20 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 26 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 26 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 27 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 27 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 27 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [sqlez::migrations] Found 28 foreign key relationships to check
+2026-10-04T01:07:31+07:00 INFO  [zed::reliability] memory usage: resident 92 MiB, virtual 805 MiB
+2026-10-04T01:07:31+07:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-10-04T01:07:31+07:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-10-04T01:07:31+07:00 INFO  [zed::reliability] worktree diagnostics: projects 0, orphaned projects 0, stores 0, slots 0, live 0, visible 0, strong 0, dead weak 0, loading 0, entries 0, visible entries 0, largest none
+2026-10-04T01:07:31+07:00 INFO  [prompt_store::rules_to_skills_migration] Starting rules-to-skills migration; skills_dir=/home/phng/.agents/skills, agents_md=/home/phng/.config/zed/AGENTS.md, prompts_dir=/home/phng/.local/share/zed/prompts
+2026-10-04T01:07:31+07:00 INFO  [prompt_store::rules_to_skills_migration] Rules-to-skills migration found 0 non-default rules and 0 default rules
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::window] Using Visual { id: 113, colormap: 0, depth: 32 }
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::window] Creating colormap 37748738
+2026-10-04T01:07:31+07:00 ERROR [wgpu_hal::vulkan::instance] enumerate_adapters: Initialization of an object has failed
+2026-10-04T01:07:31+07:00 INFO  [gpui_wgpu::wgpu_context] Found 1 GPU adapter(s):
+2026-10-04T01:07:31+07:00 INFO  [gpui_wgpu::wgpu_context]   - llvmpipe (LLVM 23.1.1, 256 bits) (vendor=0x10005, device=0x0000, backend=Gl, type=Cpu)
+2026-10-04T01:07:31+07:00 INFO  [gpui_wgpu::wgpu_context] Testing adapter: llvmpipe (LLVM 23.1.1, 256 bits) (Gl)...
+2026-10-04T01:07:31+07:00 INFO  [gpui_wgpu::wgpu_context] Selected GPU (passed configuration test): llvmpipe (LLVM 23.1.1, 256 bits) (Gl)
+2026-10-04T01:07:31+07:00 INFO  [gpui_wgpu::wgpu_context] Selected GPU adapter: "llvmpipe (LLVM 23.1.1, 256 bits)" (Gl)
+2026-10-04T01:07:31+07:00 INFO  [gpui_linux::linux::x11::window] x11: no compositor present, falling back to server-side window decorations
+2026-10-04T01:07:31+07:00 INFO  [crates/workspace/src/workspace.rs:4548] Couldn't find any enabled panel for the Left dock.
+2026-10-04T01:07:31+07:00 INFO  [workspace] Rendered first frame
+2026-10-04T01:07:31+07:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: true, device_name: "llvmpipe (LLVM 23.1.1, 256 bits)", driver_name: "", driver_info: "4.6 (Core Profile) Mesa 26.2.4-arch1.1" }
+2026-10-04T01:07:32+07:00 INFO  [gpui_linux::linux::x11::client] Refreshing every 16ms
+2026-10-04T01:07:32+07:00 INFO  [prompt_store::rules_to_skills_migration] Finished rules-to-skills migration; skill_names=0, agents_md_names=0, customized_builtins=0
+2026-10-04T01:07:32+07:00 ERROR [x_ai_subscribed] Failed to load SuperGrok credentials: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:07:32+07:00 ERROR [crates/client/src/client.rs:391] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:07:32+07:00 ERROR [openai_subscribed] Failed to load ChatGPT subscription credentials: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:07:32+07:00 INFO  [extension_host] rebuilt extension index in 2.986982ms
+2026-10-04T01:07:32+07:00 INFO  [extension_host] installing extension html latest version
+2026-10-04T01:07:32+07:00 INFO  [zed::reliability::hang_detection::logging] New foreground hang detected:
+Tasks(s) that ran too long
+329.338265ms         - crates/workspace/src/workspace.rs:2184:12
+
+2026-10-04T01:07:32+07:00 INFO  [zed::reliability::hang_detection::logging] Background hang detected on Worker-0:
+Tasks(s) that ran too long
+223.697264ms         - crates/gpui/src/app.rs:3078:34
+
+2026-10-04T01:07:32+07:00 INFO  [zed::reliability::hang_detection] Task trace has been saved to: /home/phng/.local/share/zed/hang_traces/hang-2026-10-04_01-07-32.miniprof.json
+2026-10-04T01:07:35+07:00 INFO  [extension_host] rebuilt extension index in 1.824382ms
+2026-10-04T01:07:35+07:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2026-10-04T01:07:36+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:07:36+07:00 INFO  [zed::reliability::hang_detection::logging] Background hang detected on Worker-1:
+Tasks(s) that ran too long
+326.210362ms         - crates/extension_host/src/wasm_host.rs:659:22
+
+2026-10-04T01:07:36+07:00 INFO  [zed::reliability::hang_detection] Task trace has been saved to: /home/phng/.local/share/zed/hang_traces/hang-2026-10-04_01-07-36.miniprof.json
+2026-10-04T01:08:01+07:00 INFO  [zed::reliability] memory usage: resident 357 MiB (+264 MiB), virtual 6581 MiB
+2026-10-04T01:08:01+07:00 INFO  [zed::reliability] worktree diagnostics: projects 1, orphaned projects 0, stores 1, slots 0, live 0, visible 0, strong 0, dead weak 0, loading 0, entries 0, visible entries 0, largest none
+2026-10-04T01:08:10+07:00 INFO  [project::trusted_worktrees] Worktree "/home/phng" is not trusted
+2026-10-04T01:08:10+07:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: true, device_name: "llvmpipe (LLVM 23.1.1, 256 bits)", driver_name: "", driver_info: "4.6 (Core Profile) Mesa 26.2.4-arch1.1" }
+2026-10-04T01:08:11+07:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:08:11+07:00 INFO  [worktree] deferred indexing of 37 directories in "/home/phng" that are outside of git repositories and deeper than file_scan_depth=5
+2026-10-04T01:08:11+07:00 INFO  [git::repository] opening git repository at "/home/phng/dotfiles/.git" using git binary "/usr/sbin/git"
+2026-10-04T01:08:11+07:00 INFO  [git::repository] opening git repository at "/home/phng/yay/.git" using git binary "/usr/sbin/git"
+2026-10-04T01:09:41+07:00 ERROR [crates/languages/src/bash.rs:63] missing executable in directory "/home/phng/.local/share/zed/languages/bash-language-server/node_modules/bash-language-server/out/cli.js"
+2026-10-04T01:09:41+07:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/sbin/node", npm: "/usr/sbin/npm", scratch_dir: "/home/phng/.local/share/zed/node" }
+2026-10-04T01:09:49+07:00 INFO  [lsp] starting language server process. binary path: "/usr/sbin/node", working directory: "/home/phng", args: ["/home/phng/.local/share/zed/languages/bash-language-server/node_modules/bash-language-server/out/cli.js", "start"]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           2026-10-04T01:11:57+07:00 INFO  [util] raised open file soft limit from 1024 to 65536
+2026-10-04T01:11:57+07:00 INFO  [zed] ========== starting zed version 1.22.0+stable, sha unknown ==========
+2026-10-04T01:11:57+07:00 INFO  [gpui_linux::linux::x11::client] XInput version: 2.4, gesture support: true
+2026-10-04T01:11:57+07:00 INFO  [gpui_linux::linux::x11::client] x11: compositor present: true, gtk_frame_extents_supported: false
+2026-10-04T01:11:57+07:00 INFO  [gpui_linux::linux::x11::client] Using RandR scale factor: 1
+2026-10-04T01:11:57+07:00 INFO  [util] set environment variables from shell:/usr/bin/bash, path:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+2026-10-04T01:11:58+07:00 WARN  [zed::reliability] Minidump endpoint not set
+2026-10-04T01:11:58+07:00 INFO  [zed::reliability] memory usage: resident 91 MiB, virtual 807 MiB
+2026-10-04T01:11:58+07:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2026-10-04T01:11:58+07:00 INFO  [prompt_store::rules_to_skills_migration] Rules-to-skills migration already marked done; skipping startup migration
+2026-10-04T01:11:58+07:00 INFO  [gpui_linux::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-10-04T01:11:58+07:00 INFO  [zed::reliability] worktree diagnostics: projects 0, orphaned projects 0, stores 0, slots 0, live 0, visible 0, strong 0, dead weak 0, loading 0, entries 0, visible entries 0, largest none
+2026-10-04T01:11:58+07:00 INFO  [gpui_linux::linux::platform] activate is not implemented on Linux, ignoring the call
+2026-10-04T01:11:58+07:00 ERROR [openai_subscribed] Failed to load ChatGPT subscription credentials: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:11:58+07:00 ERROR [crates/client/src/client.rs:391] DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:11:58+07:00 ERROR [x_ai_subscribed] Failed to load SuperGrok credentials: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:11:58+07:00 INFO  [gpui_linux::linux::x11::window] Using Visual { id: 113, colormap: 0, depth: 32 }
+2026-10-04T01:11:58+07:00 INFO  [gpui_linux::linux::x11::window] Creating colormap 20971522
+2026-10-04T01:11:59+07:00 ERROR [wgpu_hal::vulkan::instance] enumerate_adapters: Initialization of an object has failed
+2026-10-04T01:11:59+07:00 INFO  [gpui_wgpu::wgpu_context] Found 1 GPU adapter(s):
+2026-10-04T01:11:59+07:00 INFO  [gpui_wgpu::wgpu_context]   - llvmpipe (LLVM 23.1.1, 256 bits) (vendor=0x10005, device=0x0000, backend=Gl, type=Cpu)
+2026-10-04T01:11:59+07:00 INFO  [gpui_wgpu::wgpu_context] Testing adapter: llvmpipe (LLVM 23.1.1, 256 bits) (Gl)...
+2026-10-04T01:11:59+07:00 INFO  [gpui_wgpu::wgpu_context] Selected GPU (passed configuration test): llvmpipe (LLVM 23.1.1, 256 bits) (Gl)
+2026-10-04T01:11:59+07:00 INFO  [gpui_wgpu::wgpu_context] Selected GPU adapter: "llvmpipe (LLVM 23.1.1, 256 bits)" (Gl)
+2026-10-04T01:11:59+07:00 INFO  [worktree] deferred indexing of 39 directories in "/home/phng" that are outside of git repositories and deeper than file_scan_depth=5
+2026-10-04T01:11:59+07:00 INFO  [gpui_linux::linux::x11::window] x11: no compositor present, falling back to server-side window decorations
+2026-10-04T01:11:59+07:00 INFO  [workspace] Rendered first frame
+2026-10-04T01:11:59+07:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: true, device_name: "llvmpipe (LLVM 23.1.1, 256 bits)", driver_name: "", driver_info: "4.6 (Core Profile) Mesa 26.2.4-arch1.1" }
+2026-10-04T01:11:59+07:00 INFO  [gpui_linux::linux::x11::client] Refreshing every 16ms
+2026-10-04T01:11:59+07:00 INFO  [zed::reliability::hang_detection::logging] New foreground hang detected:
+Tasks(s) that ran too long
+651.126991ms         - crates/workspace/src/workspace.rs:2184:12
+
+2026-10-04T01:11:59+07:00 INFO  [zed::reliability::hang_detection::logging] Background hang detected on Worker-0:
+Tasks(s) that ran too long
+208.978919ms         - crates/gpui/src/app.rs:3078:34
+
+2026-10-04T01:11:59+07:00 INFO  [zed::reliability::hang_detection::logging] Background hang detected on Worker-1:
+Tasks(s) that ran too long
+655.943849ms         - crates/extension_host/src/wasm_host.rs:659:22
+
+2026-10-04T01:11:59+07:00 INFO  [zed::reliability::hang_detection] Task trace has been saved to: /home/phng/.local/share/zed/hang_traces/hang-2026-10-04_01-11-59.miniprof.json
+2026-10-04T01:11:59+07:00 INFO  [git::repository] opening git repository at "/home/phng/dotfiles/.git" using git binary "/usr/sbin/git"
+2026-10-04T01:11:59+07:00 INFO  [git::repository] opening git repository at "/home/phng/yay/.git" using git binary "/usr/sbin/git"
+2026-10-04T01:11:59+07:00 ERROR [agent] Failed to authenticate provider: Amazon Bedrock: DBus error service error org.freedesktop.zbus.Error: The name is not activatable
+2026-10-04T01:12:00+07:00 INFO  [node_runtime] using Node.js found on PATH: SystemNodeRuntime { node: "/usr/sbin/node", npm: "/usr/sbin/npm", scratch_dir: "/home/phng/.local/share/zed/node" }
+2026-10-04T01:12:00+07:00 INFO  [zed::reliability::hang_detection::logging] Background hang detected on Worker-1:
+Tasks(s) that ran too long
+132.509856ms         - crates/language/src/language_registry.rs:705:22
+
+2026-10-04T01:12:00+07:00 INFO  [zed::reliability::hang_detection] Task trace has been saved to: /home/phng/.local/share/zed/hang_traces/hang-2026-10-04_01-12-00.miniprof.json
+2026-10-04T01:12:02+07:00 INFO  [lsp] starting language server process. binary path: "/usr/sbin/node", working directory: "/home/phng", args: ["/home/phng/.local/share/zed/languages/bash-language-server/node_modules/bash-language-server/out/cli.js", "start"]
+2026-10-04T01:12:12+07:00 INFO  [gpui_linux::linux::x11::window] Using Visual { id: 113, colormap: 0, depth: 32 }
+2026-10-04T01:12:12+07:00 INFO  [gpui_linux::linux::x11::window] Creating colormap 20971741
+2026-10-04T01:12:12+07:00 INFO  [gpui_linux::linux::x11::window] x11: no compositor present, falling back to server-side window decorations
+2026-10-04T01:12:12+07:00 INFO  [gpui_linux::linux::x11::client] Refreshing every 16ms
+2026-10-04T01:12:18+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:12:23+07:00 ERROR [crates/gpui/src/window.rs:1924] window not found
+2026-10-04T01:12:28+07:00 INFO  [zed::reliability] memory usage: resident 386 MiB (+295 MiB), virtual 10770 MiB
+2026-10-04T01:12:28+07:00 INFO  [zed::reliability] worktree diagnostics: projects 1, orphaned projects 0, stores 1, slots 2, live 2, visible 1, strong 1, dead weak 0, loading 0, entries 2609, visible entries 2604, largest /home/phng (2608 entries, 2603 visible)
+2026-10-04T01:22:28+07:00 INFO  [zed::reliability] memory usage: resident 433 MiB (+46 MiB), virtual 10772 MiB
+2026-10-04T01:22:28+07:00 INFO  [zed::reliability] worktree diagnostics: projects 1, orphaned projects 0, stores 1, slots 2, live 2, visible 1, strong 1, dead weak 0, loading 0, entries 2614, visible entries 2609, largest /home/phng (2613 entries, 2608 visible)
+2026-10-04T01:27:58+07:00 WARN  [workspace] Failed to open a project item: opening project path "/home/phng/.config/dconf/user": Binary files are not supported
+2026-10-04T01:28:48+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:28:48+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/dotfiles/linux/arch/.config"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/segmentation_platform"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/Safe Browsing"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/ZxcvbnData"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/nlpaeekllejnmhoonlpcefpfnpbajbpe"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/WidevineCdm"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/MEIPreload"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/SSLErrorAssistant"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/GPUPersistentCache"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/cemdlagocoimleflkfkjoihojfainiho"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/component_crx_cache"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/mfddibmblmbccpadfndgakiopmmhebop"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/Default"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/eingdhelnaolbpcdkgddekhifcjfkalf"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/OnDeviceHeadSuggestModel"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/aoojcmojmmcbpfgoecoadbdpnagfchel"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/SafetyTips"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/FileTypePolicies"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/Dictionaries"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/Crowd Deny"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser/gkboaolpopklhgplhaaiboijnklogmbc"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware/Brave-Browser"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/BraveSoftware"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/Thunar"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/xfce4/xfconf/xfce-perchannel-xml"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/xfce4/xfconf"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/xfce4"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/gtk-3.0"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/go/telemetry/upload"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/go/telemetry/local"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/go/telemetry"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/go"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/pulse"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/i3"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/zed/themes"] }
+2026-10-04T01:31:21+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-04T01:31:21+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.config/zed"] }
+2026-10-04T01:32:28+07:00 INFO  [zed::reliability] memory usage: resident 443 MiB (+10 MiB), virtual 10772 MiB
+2026-10-04T01:32:28+07:00 INFO  [zed::reliability] worktree diagnostics: projects 1, orphaned projects 0, stores 1, slots 2, live 2, visible 1, strong 1, dead weak 0, loading 0, entries 2736, visible entries 2687, largest /home/phng (2735 entries, 2686 visible)

@@ -1,3 +1,5 @@
+sudo pacman -Syu git base-devel
+
 # --- Window Manager ---
 sudo pacman -Syu i3 xorg-server xorg-xinit ly
 sudo systemctl enable ly@tty1.service

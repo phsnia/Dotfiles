@@ -34,8 +34,7 @@ function download_winget() {
     winget install -e --id BlenderFoundation.Blender.LTS.4.5
     winget install -e --id xpf0000.FlyEnv
     winget install -e --id JavadMotallebi.NeatDownloadManager
-    winget install -e --id Klocman.BulkCrapUninstaller
+    winget install -e --id HiBitSoftware.HiBitUninstaller
+    winget install -e --id Roblox.Roblox
 }
 download_winget
-
-# --- MSI Center ---

@@ -37,3 +37,7 @@ Download-IfMissing `
 Download-IfMissing `
     "https://download.msi.com/uti_exe/desktop/MSI-Center.zip" `
     $D
+
+Download-IfMissing `
+    "https://github.com/MateuszKrawczuk/QtEmu/releases/download/2.1.1/qtemu.exe" `
+    $D

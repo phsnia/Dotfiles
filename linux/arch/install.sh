@@ -59,9 +59,12 @@ fi
 yay -S --needed \
     brave-bin \
     zed \
-    flyenv-bin
+    # flyenv-bin
 
 # --- Utility ---
 install yazi
+install docker
+sudo systemctl start docker
+
 
 echo "==> Installation complete."

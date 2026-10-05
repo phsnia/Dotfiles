@@ -7,12 +7,12 @@ config() {
     local dotfiles
     dotfiles="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
-    ln -sf "$dotfiles/.bashrc" "$HOME/.bashrc"
+    ln -sfn "$dotfiles/.bashrc" "$HOME/.bashrc"
 
-    rm -rf -- "$HOME/.config"
-    ln -s "$dotfiles/.config" "$HOME/.config"
+    # rm -rf -- "$HOME/.config"
+    ln -sTfn "$dotfiles/.config" "$HOME/.config"
 
-    rm -rf -- "$HOME/.local"
-    ln -s "$dotfiles/.local" "$HOME/.local"
+    # rm -rf -- "$HOME/.local"
+    ln -sfn "$dotfiles/.local/share/fonts" "$HOME/.local/share/fonts"
 }
 config

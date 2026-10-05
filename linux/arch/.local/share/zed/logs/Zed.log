@@ -1210,3 +1210,63 @@ Tasks(s) that ran too long
 2026-10-05T19:30:07+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
 2026-10-05T19:30:07+07:00 WARN  [notify::inotify] Unable to remove the path from the watches: Error { kind: WatchNotFound, paths: ["/home/phng/.cache/yay/flyenv-bin/src/opt/FlyEnv"] }
 2026-10-05T19:30:07+07:00 INFO  [notify::inotify] unable to remove watch descriptor from inotify: Os { code: 22, kind: InvalidInput, message: "Invalid argument" }
+2026-10-05T19:39:15+07:00 INFO  [zed::reliability] memory usage: resident 272 MiB (-28 MiB), virtual 10775 MiB
+2026-10-05T19:39:15+07:00 INFO  [zed::reliability] worktree diagnostics: projects 2, orphaned projects 0, stores 2, slots 2, live 2, visible 2, strong 2, dead weak 0, loading 0, entries 8312, visible entries 8287, largest /home/phng (5483 entries, 5468 visible)
+2026-10-05T19:49:15+07:00 INFO  [zed::reliability] memory usage: resident 273 MiB (+1 MiB), virtual 10775 MiB
+2026-10-05T19:49:15+07:00 INFO  [zed::reliability] worktree diagnostics: projects 2, orphaned projects 0, stores 2, slots 2, live 2, visible 2, strong 2, dead weak 0, loading 0, entries 8312, visible entries 8287, largest /home/phng (5483 entries, 5468 visible)
+2026-10-05T19:59:16+07:00 INFO  [zed::reliability] memory usage: resident 276 MiB (+3 MiB), virtual 10775 MiB
+2026-10-05T19:59:16+07:00 INFO  [zed::reliability] worktree diagnostics: projects 2, orphaned projects 0, stores 2, slots 2, live 2, visible 2, strong 2, dead weak 0, loading 0, entries 8312, visible entries 8287, largest /home/phng (5483 entries, 5468 visible)
+2026-10-05T20:05:26+07:00 ERROR [crates/client/src/telemetry.rs:714] error sending request for url (https://api.zed.dev/telemetry/events?): client error (Connect): operation timed out
+2026-10-05T20:05:28+07:00 ERROR [crates/client/src/telemetry.rs:714] error sending request for url (https://api.zed.dev/telemetry/events?): client error (SendRequest): connection error: Connection reset by peer (os error 104)
+2026-10-05T20:05:33+07:00 ERROR [crates/client/src/telemetry.rs:714] error sending request for url (https://api.zed.dev/telemetry/events?): client error (Connect): operation timed out
+2026-10-05T20:09:16+07:00 INFO  [zed::reliability] memory usage: resident 212 MiB (-63 MiB), virtual 10775 MiB
+2026-10-05T20:09:16+07:00 INFO  [zed::reliability] worktree diagnostics: projects 2, orphaned projects 0, stores 2, slots 2, live 2, visible 2, strong 2, dead weak 0, loading 0, entries 8312, visible entries 8287, largest /home/phng (5483 entries, 5468 visible)
+2026-10-05T20:14:35+07:00 INFO  [zed::reliability::hang_detection::logging] New foreground hang detected:
+Tasks(s) that ran too long
+138.76682ms          - crates/editor/src/hover_popover.rs:316:19
+
+2026-10-05T20:14:35+07:00 INFO  [zed::reliability::hang_detection] Task trace has been saved to: /home/phng/.local/share/zed/hang_traces/hang-2026-10-05_20-14-35.miniprof.json
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:14:43+07:00 INFO  [project::lsp_command] completion out of expected range 
+2026-10-05T20:19:16+07:00 INFO  [zed::reliability] memory usage: resident 217 MiB (+4 MiB), virtual 10775 MiB
+2026-10-05T20:19:16+07:00 INFO  [zed::reliability] worktree diagnostics: projects 2, orphaned projects 0, stores 2, slots 2, live 2, visible 2, strong 2, dead weak 0, loading 0, entries 8312, visible entries 8287, largest /home/phng (5483 entries, 5468 visible)
+2026-10-05T20:21:02+07:00 ERROR [crates/gpui_linux/src/linux/platform.rs:600] invoking xdg-open: No such file or directory (os error 2)
+2026-10-05T20:21:17+07:00 WARN  [fs] Failed to read symlink target metadata for path "/home/phng/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 WARN  [fs] Failed to read symlink target metadata for path "/home/phng/dotfiles/linux/arch/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 WARN  [fs] Failed to read symlink target metadata for path "/home/phng/dotfiles/linux/arch/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 ERROR [worktree] error reading file "/home/phng/dotfiles/linux/arch/.local/share/fonts" on event: canonicalizing "/home/phng/dotfiles/linux/arch/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 ERROR [worktree] error reading file "/home/phng/.local/share/fonts" on event: canonicalizing "/home/phng/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 ERROR [worktree] error reading file "/home/phng/dotfiles/linux/arch/.local/share/fonts" on event: canonicalizing "/home/phng/dotfiles/linux/arch/.local/share/fonts": Too many levels of symbolic links (os error 40)
+2026-10-05T20:21:17+07:00 ERROR [worktree] error reading target of symlink "/home/phng/.config/BraveSoftware/Brave-Browser/SingletonLock": canonicalizing "/home/phng/.config/BraveSoftware/Brave-Browser/SingletonLock": No such file or directory (os error 2)
+2026-10-05T20:21:17+07:00 ERROR [worktree] error reading target of symlink "/home/phng/.config/BraveSoftware/Brave-Browser/SingletonCookie": canonicalizing "/home/phng/.config/BraveSoftware/Brave-Browser/SingletonCookie": No such file or directory (os error 2)

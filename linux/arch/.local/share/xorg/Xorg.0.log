@@ -326,3 +326,11 @@ X Protocol Version 11, Revision 0
 [   136.199] (II) This device may have been added with another device file.
 [   243.788] (EE) event3  - VirtualBox mouse integration: client bug: event processing lagging behind by 26ms, your system is too slow
 [   396.147] (II) event3  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  8087.384] (EE) event3  - VirtualBox mouse integration: client bug: event processing lagging behind by 26ms, your system is too slow
+[  8562.549] (EE) event3  - VirtualBox mouse integration: client bug: event processing lagging behind by 21ms, your system is too slow
+[  8725.515] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 33ms, your system is too slow
+[  8863.595] (II) event3  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  8870.764] (II) event3  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  9602.526] (II) event3  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  9976.296] (EE) event5  - ImExPS/2 Generic Explorer Mouse: client bug: event processing lagging behind by 45ms, your system is too slow
+[  9976.322] (EE) client bug: timer button-debounce-debounce-event5: scheduled expiry is in the past (-22ms), your system is too slow

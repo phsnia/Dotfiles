@@ -13,6 +13,6 @@ config() {
     ln -sTfn "$dotfiles/.config" "$HOME/.config"
 
     # rm -rf -- "$HOME/.local"
-    ln -sfn "$dotfiles/.local/share/fonts" "$HOME/.local/share/fonts"
+    # ln -sfn "$dotfiles/.local/share/fonts" "$HOME/.local/share/fonts"
 }
 config

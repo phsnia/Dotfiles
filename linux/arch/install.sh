@@ -4,7 +4,7 @@ set -e
 install() {
     for pkg in "$@"; do
         if ! pacman -Q "$pkg" &>/dev/null; then
-            sudo pacman -S --needed "$pkg"
+            sudo pacman -S --needed --noconfirm "$pkg"
         fi
     done
 }
@@ -51,20 +51,20 @@ if ! command -v yay &>/dev/null; then
 
     (
         cd "$HOME/yay"
-        makepkg -si
+        makepkg -si --noconfirm
     )
 fi
 
 # --- AUR ---
-yay -S --needed \
+yay -S --needed --noconfirm \
     brave-bin \
-    zed \
+    zed
     # flyenv-bin
 
 # --- Utility ---
 install yazi
 install docker
-sudo systemctl start docker
 
+sudo systemctl enable --now docker
 
 echo "==> Installation complete."

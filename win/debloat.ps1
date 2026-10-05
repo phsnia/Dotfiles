@@ -41,3 +41,7 @@ Download-IfMissing `
 Download-IfMissing `
     "https://github.com/MateuszKrawczuk/QtEmu/releases/download/2.1.1/qtemu.exe" `
     $D
+
+Download-IfMissing `
+    "https://us.download.nvidia.com/Windows/616.56/616.56-desktop-win10-win11-64bit-international-dch-whql.exe" `
+    $D

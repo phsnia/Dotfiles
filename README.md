@@ -4,11 +4,22 @@
 # Details
 
 - Linux
+    - Window manager
+        * []()
+    - Driver:
+        * []()
 - Windows 
-    - Window Manager: [GlazeWM]()
-    - Terminal: [Terminal]()/[LF]()
-    - Browser: [Edge]()/[Brave]()
-    - FileManger: [LF]()
-    - TextEditor: [Vscode]()/[Neovim]()
-    - Music Player: [Musikcube]()/[Mpv]()
-    - Fetch: [Neofetch]()
+    - Window Manager: 
+        * [GlazeWM]()
+    - Terminal: 
+        * [Terminal]()/[LF]()
+    - Browser: 
+        * [Edge]()/[Brave]()
+    - FileManger: 
+        * [LF]()
+    - TextEditor: 
+        * [Vscode]()/[Neovim]()
+    - Music Player: 
+        * [Musikcube]()/[Mpv]()
+    - Fetch: 
+        * [Neofetch]()

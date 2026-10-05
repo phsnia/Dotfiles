@@ -20,7 +20,6 @@ function scoop_install() {
     scoop install glazewm
     scoop install obs-studio
     scoop install zed
-    scoop install brave
 
     # --- PROGRAMMING ---
     scoop install zellij
@@ -31,6 +30,7 @@ function scoop_install() {
 scoop_install
 
 function download_winget() {
+    winget install -e --id Brave.Brave
     winget install -e --id BlenderFoundation.Blender.LTS.4.5
     winget install -e --id xpf0000.FlyEnv
     winget install -e --id JavadMotallebi.NeatDownloadManager

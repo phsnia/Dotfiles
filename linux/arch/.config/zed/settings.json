@@ -7,8 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "accessible_mode": true,
+  "cursor_shape": "block",
+  "enable_language_server": false,
+  "cli_default_open_behavior": "existing_window",
+  "ui_font_family": "Comic Mono",
+  "buffer_font_family": "Comic Mono",
   "base_keymap": "VSCode",
-  "icon_theme": "Zed (Default)",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {

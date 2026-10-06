@@ -34,7 +34,10 @@ install \
     xorg-server \
     xorg-xinit \
     ly \
-    dmenu
+    dmenu \
+    neovim \
+    feh \
+    htop
 
 sudo systemctl is-enabled ly@tty1.service &>/dev/null ||
     sudo systemctl enable ly@tty1.service
@@ -43,7 +46,9 @@ sudo systemctl is-enabled ly@tty1.service &>/dev/null ||
 install \
     pipewire \
     pipewire-pulse \
-    pavucontrol
+    pavucontrol \
+    alsa-utils \
+    sof-firmware
 
 # --- Yay ---
 if ! command -v yay &>/dev/null; then
@@ -64,6 +69,34 @@ yay -S --needed --noconfirm \
 # --- Utility ---
 install yazi
 install docker
+install thunar
+install udisks2
+install udiskie
+
+# --- Fonts ---
+install noto-fonts \
+    noto-fonts-emoji
+
+# --- C/C++ Developement ---
+install clang \
+    gdb \
+    lldb \
+    cmake \
+    ninja \
+    valgrind
+
+# --- Java Development ---
+# install jdk21-temurin maven gradle
+
+install mise
+
+# --- C# Development ---
+
+# --- Zig Development ---
+install zig
+
+# --- C3 Development ---
+install c3c
 
 sudo systemctl enable --now docker
 

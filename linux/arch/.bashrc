@@ -20,3 +20,4 @@ function fput() {
 }
 
 PS1='[\u@\h \W]\$ '
+eval "$(mise activate bash)"

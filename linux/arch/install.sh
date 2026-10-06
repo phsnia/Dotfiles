@@ -85,17 +85,12 @@ install clang \
     ninja \
     valgrind
 
-# --- Java Development ---
-# install jdk21-temurin maven gradle
-
+# --- Prog Development ---
 install mise
+yay -S jetbrains-toolbox
+install scrcpy
 
-# --- C# Development ---
-
-# --- Zig Development ---
-install zig
-
-# --- C3 Development ---
+# --- C3 ---
 install c3c
 
 sudo systemctl enable --now docker

@@ -75,7 +75,11 @@ install udiskie
 
 # --- Fonts ---
 install noto-fonts \
-    noto-fonts-emoji
+    noto-fonts-cjk \
+    noto-fonts-emoji \
+    noto-fonts-extra \
+    ttf-dejavu \
+    ttf-liberation
 
 # --- C/C++ Developement ---
 install clang \
@@ -87,7 +91,7 @@ install clang \
 
 # --- Prog Development ---
 install mise
-yay -S jetbrains-toolbox
+# yay -S jetbrains-toolbox
 install scrcpy
 
 # --- C3 ---

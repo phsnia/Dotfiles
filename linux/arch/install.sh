@@ -63,7 +63,8 @@ fi
 # --- AUR ---
 yay -S --needed --noconfirm \
     brave-bin \
-    zed
+    zed \
+    visual-studio-code-bin
     # flyenv-bin
 
 # --- Utility ---

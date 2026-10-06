@@ -91,7 +91,7 @@ install clang \
 
 # --- Prog Development ---
 install mise
-yay -S jetbrains-toolbox
+# yay -S jetbrains-toolbox
 install scrcpy
 
 # --- C3 ---
